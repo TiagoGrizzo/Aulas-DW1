@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
+    <!--Navbar-->
+    <nav class="navbar">
+       <div class="logo">PlayVerse</div>
+       <img src="img/game-console-ecommerce-svgrepo-com.svg" class="logo-img">
+       <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        </ul>
+        <div onclick="toggleDarkMode()" class="dark-mode-toggle">Dark mode</div>
+    </nav>
+<!--Seção de cards-->
+    <section class="cards">
+      <div class="card">
+        <h3>PlayStation 5 (PS5)</h3>
+        <img src="img/foto-ps4-darkmode.jpg">
+        <p>O PlayStation 5, lançado pela Sony em 2020, trouxe uma grande revolução para o mundo dos videogames. Com um design futurista, o PS5 se destaca pelo poder de processamento e pela qualidade gráfica impressionante. Ele foi projetado para proporcionar uma experiência imersiva, com tempos de carregamento reduzidos graças ao SSD ultra-rápido e suporte para resolução 4K e ray tracing (tracing de raios), o que eleva o nível de realismo nos jogos.</p>
+      </div><!--Fim do card 1-->
+
+      <div class="card">
+        <h3>Xbox Series X</h3>
+        <img src="img/xbox-darkmode.jpg">
+        <p>O Xbox Series X, desenvolvido pela Microsoft, também chegou em 2020, com o objetivo de ser o console mais poderoso já criado. Com um design mais simples e robusto, o Xbox Series X impressiona pela sua capacidade de processamento, sendo o mais poderoso do mercado em termos de hardware. Ele também oferece suporte a 4K nativo e ray tracing, e tem o famoso Game Pass, que proporciona acesso a centenas de jogos para os assinantes, incluindo os lançamentos mais recentes.</p>
+      </div><!--Fim do card 2-->
+
+      <div class="card">
+        <h3>Nintendo Switch</h3>
+        <img src="img/nintendo-darkmode.jpg">
+        <p>O Nintendo Switch é, sem dúvida, o console mais inovador da geração. Lançado pela Nintendo em 2017, ele é um híbrido que pode ser usado tanto como um console de mesa quanto como um dispositivo portátil, oferecendo uma flexibilidade única no mercado. O Switch apresenta uma tela de 7 polegadas, e, ao ser conectado à TV, oferece uma experiência de console tradicional.</p>
+      </div>
+      <!--Fim do card 3-->
+    </section> 
     
+      <footer>
+        <p>Tiago Augusto G. Grizzo - 2025</p>
+      </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+       function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+       }
+  </script>
+
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

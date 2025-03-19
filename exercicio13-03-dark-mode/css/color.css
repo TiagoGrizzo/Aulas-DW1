@@ -1,0 +1,21 @@
+/* :root é o setor base, aplicando a todo documento
+geralmente utilizado para variaveis
+*/
+:root{
+    /*Tema claro */
+    --bg-color:#D1D9E6;
+    --text-color:#fff ;
+    --navbar-bg:#2C3E50;
+    --card-bg:#2C3E50;
+    --footer-bg:#34495E;
+
+    /* Tema escuro */
+    body.dark-mode{
+    --bg-color:#000;
+    --text-color: #ffe602;
+    --navbar-bg:#1f1f1f;
+    --card-bg:#1f1f1f;
+    --footer-bg:#1f1f1f;
+    }
+
+}
